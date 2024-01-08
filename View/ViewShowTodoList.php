@@ -20,7 +20,7 @@ function viewShowTodoList()
         viewAddTodoList();
     }else if($pilihan == "2"){
         viewRemoveTodoList();
-    }else if($pilihan = "x"){
+    }else if($pilihan == "x"){
         break;
     }else {
         echo "Pilihan Tidak Ada!";
